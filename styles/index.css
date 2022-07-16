@@ -5,3 +5,22 @@ body{
 .logo{
     width: 80px;
 }
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color: white;
+}
+
+/* Footer*/
+footer{
+    background-color: black;
+    color: white;
+}
